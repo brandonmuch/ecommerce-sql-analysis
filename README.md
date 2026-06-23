@@ -1,6 +1,6 @@
 # E-Commerce SQL Analysis
  
-**Product analytics case study using BigQuery and the TheLook E-Commerce public dataset — covering revenue performance, customer behaviour, market analysis, and growth trends.**
+**Product analytics case study using BigQuery and the TheLook E-Commerce public dataset covering revenue performance, customer behaviour, market analysis, and growth trends.**
  
 ---
  
@@ -22,13 +22,13 @@ TheLook is a fictional e-commerce retailer operating across multiple global mark
  
 ## Dataset
  
-**Source:** Google BigQuery Public Dataset — `bigquery-public-data.thelook_ecommerce`
+**Source:** Google BigQuery Public Dataset `bigquery-public-data.thelook_ecommerce`
  
 **Tables used:**
-- `order_items` — individual line items, sale prices, statuses
-- `orders` — order-level status and dates
-- `users` — customer demographics and location
-- `products` — product categories, brands, pricing
+- `order_items` individual line items, sale prices, statuses
+- `orders` order-level status and dates
+- `users` customer demographics and location
+- `products` product categories, brands, pricing
 ---
  
 ## Queries and Business Questions
@@ -59,13 +59,13 @@ TheLook is a fictional e-commerce retailer operating across multiple global mark
 - Revenue has grown consistently over the last 12 months with a notable dip in February 2026
 - June 2026 shows the highest monthly revenue on record
 **Orders**
-- 15% of orders are cancelled and 10% are returned — roughly 1 in 4 orders represents lost revenue
+- 15% of orders are cancelled and 10% are returned roughly 1 in 4 orders represents lost revenue
 - Only 25% of orders reach Complete status
 **Markets**
 - China and the United States are the two largest markets by user count
-- Data quality issues exist — Spain appears as both Spain and España, Brasil may duplicate Brazil
+- Data quality issues exist Spain appears as both Spain and España, Brasil may duplicate Brazil
 **Customers**
-- Top customers by lifetime value show significant concentration — the #1 customer spends nearly 50% more than #2
+- Top customers by lifetime value show significant concentration the #1 customer spends nearly 50% more than #2
 - Country-level ranking reveals distinct high-value customer segments per market
 ---
  
